@@ -30,7 +30,6 @@ const BowlerTable: React.FC = () => {
 
   return (
     <div>
-      <h2>Bowling League - Marlins & Sharks</h2>
       <table border={1}>
         <thead>
           <tr>

@@ -1,9 +1,10 @@
-import BowlerTable from "./BowlerTable"; // ✅ Updated path
+import Header from "./header"; 
+import BowlerTable from "./BowlerTable";
 
 function App() {
   return (
     <div>
-      <h1>Bowling League</h1>
+      <Header />
       <BowlerTable />
     </div>
   );
